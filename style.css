@@ -1,0 +1,26 @@
+#carouselExampleInterval{
+    background-image: url(./hot-gadgets/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: 58%;
+    background-size: auto 400px;
+    border-bottom: 2px solid aqua;
+}
+#carouselExampleInterval p{
+    padding-right: 50px;
+}
+.btn{
+    background:  linear-gradient(73deg,#2bb5e7,#09f5c5);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.row{
+    /* padding: 30px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bg-2{
+    position: absolute;
+    top: 240px;
+    z-index: -1;
+}
