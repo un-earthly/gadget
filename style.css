@@ -1,9 +1,12 @@
+*{
+    font-family: poppins;
+}
 #carouselExampleInterval{
     background-image: url(./hot-gadgets/bg-1.png);
     background-repeat: no-repeat;
     background-position: 58%;
     background-size: auto 400px;
-    border-bottom: 2px solid aqua;
+    /* border-bottom: 2px solid aqua; */
 }
 #carouselExampleInterval p{
     padding-right: 50px;
@@ -19,8 +22,40 @@
     align-items: center;
     text-align: center;
 }
-.bg-2{
+.secimg{
     position: absolute;
-    top: 240px;
-    z-index: -1;
+    top: 420px;
 }
+.secimg img{
+    height: 160px;
+}
+#heading{
+    display: flex;
+    justify-content: space-between;
+}
+h6{
+    color: #ff9d00;
+    cursor: pointer;
+}
+.card,.card-footer{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+.card img{
+    width: 244px;
+    margin: auto;
+}
+.flx{
+    display: inline-block;
+    margin-left: 710px;
+}
+hr{
+    color:#ff9c35 !important;
+    height: 5px!important;
+    opacity: 1!important;
+    border-radius: 5px!important;
+    width: 160px!important;
+    margin: auto!important;
+}
+
