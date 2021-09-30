@@ -47,9 +47,11 @@ h6{
     margin: auto;
 }
 .flx{
-    display: inline-block;
-    margin-left: 710px;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
 }
+
 hr{
     color:#ff9c35 !important;
     height: 5px!important;
@@ -58,4 +60,16 @@ hr{
     width: 160px!important;
     margin: auto!important;
 }
-
+.productsCat{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bigImg img{
+    width: 30rem;
+}
+.smImg img{
+    margin: 10px;
+    padding: 7px;
+    box-shadow: #ff9c35 0 0 10px;
+}
